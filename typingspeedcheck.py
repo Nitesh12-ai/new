@@ -20,7 +20,7 @@ def speed_timer(time_s,time_e,userinput):
     speed = len(userinput)/time_R
     return round(speed)
 
-test = [" Here I want to know that what will you do by only studying", "would you like to answer the main question then hit again:"]
+test = [" Here Nitesh Nitesh want to know that what will you do by only studying", "would you like to answer the main question then hit again:"]
 test1 = r.choice(test)
 print("!!!!!!!! Typing Speed !!!!!!!!!!")
 print(test1)
